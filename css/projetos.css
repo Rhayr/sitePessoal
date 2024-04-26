@@ -1,0 +1,26 @@
+.projetos {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 300px;
+  }
+  
+  .card-container {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 48px;
+  }
+  
+  .card {
+    width: 45%;
+    background-color: #cdc5c5;
+    padding: 20px;
+    color: var(--primary-color);
+    border-radius: 12px;
+  }
+  
